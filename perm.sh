@@ -1,4 +1,7 @@
 # Gives Permissions to all programs in the repo
 
+sudo su
+
 chmod +x server.sh
-chmod +x /all/update.sh
+cd all
+chmod +x update.sh
