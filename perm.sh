@@ -17,6 +17,7 @@ chmod +x update.sh
 chmod +x xmrig.sh
 chmod +x matrix.sh
 chmod +x htop.sh
+chmod +x storage.sh
 cd -
 
 ## GUI directory perms
