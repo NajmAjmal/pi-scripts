@@ -10,6 +10,6 @@ chmod +x setup.sh
 cd -
 
 ## GUI directory perms
-cd GUI
+cd gui
 chmod +x pi-apps.sh
 cd -
