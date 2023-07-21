@@ -4,6 +4,12 @@
 chmod +x server.sh
 chmod +x setup.sh
 
+# Docker directory perms
+cd docker
+chmod +x docker-install.sh
+chmod +x yacht.sh
+cd -
+
 # all directory perms
 cd all
 chmod +x update.sh
