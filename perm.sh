@@ -7,6 +7,7 @@ chmod +x server.sh
 cd all
 chmod +x update.sh
 chmod +x setup.sh
+chmod +x xmrig.sh
 cd -
 
 ## GUI directory perms
