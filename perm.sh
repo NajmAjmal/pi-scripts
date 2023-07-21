@@ -8,6 +8,7 @@ chmod +x setup.sh
 cd docker
 chmod +x docker-install.sh
 chmod +x yacht.sh
+chmod +x nextcloud.sh
 cd -
 
 # all directory perms
