@@ -2,11 +2,11 @@
 
 # install directory perms
 chmod +x server.sh
+chmod +x setup.sh
 
 # all directory perms
 cd all
 chmod +x update.sh
-chmod +x setup.sh
 chmod +x xmrig.sh
 chmod +x matrix.sh
 cd -
