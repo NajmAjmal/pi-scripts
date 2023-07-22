@@ -24,4 +24,3 @@ if ! ask_yes_no "Do you want to continue?"; then
 fi
 
 # The rest of your script goes here if the user chose 'yes'
-echo "Script execution completed."
