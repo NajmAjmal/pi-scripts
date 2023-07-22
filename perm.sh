@@ -25,6 +25,7 @@ cd -
 # misc directory perms
 cd misc
 chmod +x warning-external-scripts.sh
+chmod +x auto-update-script.sh
 cd -
 
 ## GUI directory perms
