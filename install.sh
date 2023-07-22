@@ -8,4 +8,4 @@ cd pi-scripts
 chmod +x perm.sh
 ./perm.sh
 # Adding auto update script
-sudo ./misc/auto-update-script.sh
+./misc/auto-update-script.sh
