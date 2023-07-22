@@ -10,6 +10,7 @@ chmod +x docker-install.sh
 chmod +x yacht.sh
 chmod +x nextcloud.sh
 chmod +x kasm.sh
+chmod +x docker-c-install.sh
 cd -
 
 # all directory perms
