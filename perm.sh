@@ -9,6 +9,7 @@ cd docker
 chmod +x docker-install.sh
 chmod +x yacht.sh
 chmod +x nextcloud.sh
+chmod +x kasm.sh
 cd -
 
 # all directory perms
@@ -18,6 +19,11 @@ chmod +x xmrig.sh
 chmod +x matrix.sh
 chmod +x htop.sh
 chmod +x storage.sh
+cd -
+
+# misc directory perms
+cd misc
+chmod +x warning-external-scripts.sh
 cd -
 
 ## GUI directory perms
