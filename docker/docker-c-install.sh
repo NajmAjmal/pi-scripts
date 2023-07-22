@@ -1,3 +1,5 @@
+echo "Its recommended to have Docker installed before installing this"
+
 ./$home/$user/pi-scripts/all/update.sh
 
 echo "Installing Dependencies"
