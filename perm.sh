@@ -20,6 +20,7 @@ chmod +x xmrig.sh
 chmod +x matrix.sh
 chmod +x htop.sh
 chmod +x storage.sh
+chmod +x wifi-hotspot.sh
 cd -
 
 # misc directory perms
