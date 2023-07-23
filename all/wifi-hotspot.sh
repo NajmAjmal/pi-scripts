@@ -11,9 +11,7 @@ cd linux-wifi-hotspot
 make
 
 #install
-su root
-make install-cli-only
-su $user
+sudo make install-cli-only
 
-systemctl enable create_ap
-wihotspot
+sudo systemctl enable create_ap
+sudo wihotspot
