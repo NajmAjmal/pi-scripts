@@ -59,6 +59,6 @@ systemctl start hostapd
 
 # Enable IP forwarding and configure NAT
 sysctl net.ipv4.ip_forward=1
-iptables -t nat -A POSTROUTING -o <YOUR_INTERNET_INTERFACE> -j MASQUERADE
+iptables -t nat -A POSTROUTING -o wlan0 -j MASQUERADE
 
 echo "WiFi hotspot setup complete."
