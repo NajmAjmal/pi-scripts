@@ -7,5 +7,3 @@ cd pi-scripts
 # Giving perms to all scripts
 chmod +x perm.sh
 ./perm.sh
-# Adding auto update script
-./misc/auto-update-script.sh
