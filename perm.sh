@@ -12,6 +12,10 @@ chmod +x nextcloud.sh
 chmod +x kasm.sh
 chmod +x docker-c-install.sh
 cd -
+# Docker/Guac
+cd docker/guac
+chmod +x start.sh
+cd -
 
 # all directory perms
 cd all
