@@ -1,7 +1,7 @@
 version: '3'
 services:
   guacamole:
-    image: oznu/guacamole-arm64
+    image: guacamole/guacamole
     container_name: guacamole
     ports:
       - "8080:8080"
