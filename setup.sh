@@ -1,4 +1,4 @@
-# Installs usefull programs
+# Basic setup script
 
 echo "Running Update"
 sudo ./all/update.sh
