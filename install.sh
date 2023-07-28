@@ -1,5 +1,5 @@
 # Going to main directory and removing existing pi-scripts, used for updating
-cd
+cd /$home/$user/
 rm -r -f pi-scripts
 # Installing pi-scripts
 git clone https://github.com/NajmAjmal/pi-scripts
