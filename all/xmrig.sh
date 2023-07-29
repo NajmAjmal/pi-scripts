@@ -1,5 +1,3 @@
-#!/bin/bash
-
 echo "Installing XMRig"
 
 ./update.sh
