@@ -1,16 +1,16 @@
 # Gives Permissions to all programs in the repo
 
 # install directory perms
-chmod +x server.sh
-chmod +x setup.sh
+sudo chmod +x server.sh
+sudo chmod +x setup.sh
 
 # Docker directory perms
 cd docker
-chmod +x docker-install.sh
-chmod +x yacht.sh
-chmod +x nextcloud.sh
-chmod +x kasm.sh
-chmod +x docker-c-install.sh
+sudo chmod +x docker-install.sh
+sudo chmod +x yacht.sh
+sudo chmod +x nextcloud.sh
+sudo chmod +x kasm.sh
+sudo chmod +x docker-c-install.sh
 cd -
 # Docker/Guac
 cd docker/guac
@@ -19,22 +19,22 @@ cd -
 
 # all directory perms
 cd all
-chmod +x update.sh
-chmod +x xmrig.sh
-chmod +x matrix.sh
-chmod +x htop.sh
-chmod +x storage.sh
-chmod +x wifi-hotspot.sh
-chmod +x hotspot.sh
+sudo chmod +x update.sh
+sudo chmod +x xmrig.sh
+sudo chmod +x matrix.sh
+sudo chmod +x htop.sh
+sudo chmod +x storage.sh
+sudo chmod +x wifi-hotspot.sh
+sudo chmod +x hotspot.sh
 cd -
 
 # misc directory perms
 cd misc
-chmod +x warning-external-scripts.sh
-chmod +x auto-update-script.sh
+sudo chmod +x warning-external-scripts.sh
+sudo chmod +x auto-update-script.sh
 cd -
 
 ## GUI directory perms
 cd gui
-chmod +x pi-apps.sh
+sudo chmod +x pi-apps.sh
 cd -
