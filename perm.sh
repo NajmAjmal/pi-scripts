@@ -14,7 +14,7 @@ sudo chmod +x docker-c-install.sh
 cd -
 # Docker/Guac
 cd docker/guac
-chmod +x start.sh
+sudo chmod +x start.sh
 cd -
 
 # all directory perms
