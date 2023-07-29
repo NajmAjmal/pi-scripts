@@ -27,6 +27,11 @@ sudo chmod +x storage.sh
 sudo chmod +x wifi-hotspot.sh
 sudo chmod +x hotspot.sh
 cd -
+# Macchange
+cd all/macchange
+sudo chmod +x install.sh
+sudo chmod +x random-mac.sh
+cd -
 
 # misc directory perms
 cd misc
