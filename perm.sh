@@ -3,6 +3,7 @@
 # install directory perms
 sudo chmod +x server.sh
 sudo chmod +x setup.sh
+sudo chmod +x uninstall.sh
 
 # Docker directory perms
 cd docker

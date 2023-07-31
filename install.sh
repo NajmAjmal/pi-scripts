@@ -4,7 +4,6 @@ sudo usermod -aG sudo $USER
 echo "Installing Git & Fortune"
 sudo apt install git fortune -y
 
-
 # Going to main directory and removing existing pi-scripts, used for updating
 cd
 sudo rm -r -f pi-scripts
