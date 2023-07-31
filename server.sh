@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Welcome to the Custom Server Scripts Installer"
-echo "---------------------------------------------"
+echo "----------------------------------------------"
 echo "Please select a program to install:"
 echo "1. PIVPN"
 echo "2. PIHOLE"
