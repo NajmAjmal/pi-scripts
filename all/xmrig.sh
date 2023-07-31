@@ -16,6 +16,7 @@ cd xmrig
 mkdir build
 cd build
 cmake ..
+make CXXFLAGS+="-mfpu=neon-fp-armv8"
 make
 cd /$home/$user
 
