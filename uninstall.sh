@@ -21,11 +21,24 @@ ask_yes_no() {
 # Example usage
 if ask_yes_no "Are you sure you want to uninstall? This will remove pi-scripts & xmrig directory, all contents will be deleted forever"; then
     echo "Uninstalling"
-    cd /$home/$user
-    rm -f -r pi-scripts
-    rm -f -r xmrig
-    echo "Program Uninstalled"
-    echo ""
+
+
+    # Navigate to the parent directory containing the pi-scripts directory
+    cd "$(dirname "$0")"
+    
+    # Remove the xmrig directory if it exists
+    if [ -d "xmrig" ]; then
+        echo "Removing xmrig directory..."
+        rm -rf "xmrig"
+    fi
+    
+    # Remove the pi-scripts directory if it exists
+    if [ -d "pi-scripts" ]; then
+        echo "Removing pi-scripts directory..."
+        rm -rf "pi-scripts"
+    fi
+    
+    echo "Uninstall process completed."
     echo "You can re-install this program again"
     echo "sudo wget -qO- https://raw.githubusercontent.com/NajmAjmal/pi-scripts/main/install.sh | bash"
 else
