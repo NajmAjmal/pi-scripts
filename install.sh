@@ -1,4 +1,4 @@
-echo "Giving sudo perms"
+echo "Granting sudo perms"
 sudo usermod -aG sudo $USER
 
 echo "Installing Git & Fortune"
