@@ -11,20 +11,20 @@ sudo apt install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 
 echo "Main directory"
 cd /$home/$user
-git clone https://github.com/xmrig/xmrig.git
+sudo git clone https://github.com/xmrig/xmrig.git
 cd xmrig
-mkdir build
+sudo mkdir build
 cd build
-cmake ..
-make CXXFLAGS+="-mfpu=neon-fp-armv8"
-make
+sudo cmake ..
+sudo make CXXFLAGS+="-mfpu=neon-fp-armv8"
+sudo make
 cd /$home/$user
 
 # Write the content to the file
 echo "$contents" > mine.sh
-chmod +x mine.sh
+sudo chmod +x mine.sh
 
 echo "To run miner, do ./mine.sh"
 echo "Edit it by nano mine.sh, put your own address in"
 
-./mine.sh
+sudo ./mine.sh
