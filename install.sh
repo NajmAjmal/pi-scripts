@@ -14,5 +14,5 @@ cd pi-scripts
 sudo chmod +x perm.sh
 ./perm.sh
 
-sudo ./pi-scripts/all/update.sh
+sudo ./all/update.sh
 
