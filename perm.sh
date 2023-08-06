@@ -28,6 +28,7 @@ sudo chmod +x htop.sh
 sudo chmod +x storage.sh
 sudo chmod +x wifi-hotspot.sh
 sudo chmod +x hotspot.sh
+sudo chmod +x kasm-workspaces.sh
 cd -
 # Macchange
 cd all/macchange
