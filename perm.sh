@@ -29,6 +29,7 @@ sudo chmod +x storage.sh
 sudo chmod +x wifi-hotspot.sh
 sudo chmod +x hotspot.sh
 sudo chmod +x kasm-workspaces.sh
+sudo chmod +x minecraft-server.sh
 cd -
 # Macchange
 cd all/macchange
