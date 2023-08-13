@@ -2,12 +2,13 @@
 
 sudo apt install default-jdk
 
-mkdir $user/$home/mcserver
-cd $user/$home/mcserver
+cd $user/$home
+mkdir mcserver
+cd mcserver
 
 wget https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951553/server.jar
 
-java -Xmx2048M -Xms2048M -jar server.jar nogui
+sudo java -Xmx2048M -Xms2048M -jar server.jar nogui
 
 echo "Copy this paste into nano"
 echo "CTRL+X Y ENTER"
@@ -22,7 +23,7 @@ done"
 
 sleep 10
 
-nano start.sh
+sudo nano start.sh
 
 echo "Edit EULA"
 echo "Set to true"
