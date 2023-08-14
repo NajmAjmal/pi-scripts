@@ -21,7 +21,7 @@ sudo make
 cd /$home/$user
 
 # Write the content to the file
-echo "$contents" > mine.sh
+sudo echo "$contents" > mine.sh
 sudo chmod +x mine.sh
 
 echo "To run miner, do ./mine.sh"
