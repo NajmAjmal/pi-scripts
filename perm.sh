@@ -1,6 +1,6 @@
 # Gives Permissions to all programs in the repo
 
-# install directory perms
+# Install directory perms
 sudo chmod +x server.sh
 sudo chmod +x setup.sh
 sudo chmod +x uninstall.sh
