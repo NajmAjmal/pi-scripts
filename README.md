@@ -13,4 +13,4 @@ New and experimental features.
 
     sudo wget -qO- https://raw.githubusercontent.com/NajmAjmal/pi-scripts/update/install.sh | bash
 
-> Note: Pi-apps will only work on ARM Devices
+> Note: Pi-apps will only work on ARM Devices. There will be Different apps depending on 32 or 64bit.
