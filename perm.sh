@@ -30,6 +30,7 @@ sudo chmod +x wifi-hotspot.sh
 sudo chmod +x hotspot.sh
 sudo chmod +x kasm-workspaces.sh
 sudo chmod +x minecraft-server.sh
+sudo chmod +x hack-chat.sh
 cd -
 # Macchange
 cd all/macchange
