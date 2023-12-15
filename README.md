@@ -7,10 +7,5 @@
 
     git clone https://github.com/NajmAjmal/pi-scripts
     ./pi-scripts/install.sh
-    
-## Experimental Install (In development)
-New and experimental features.
-
-    sudo wget -qO- https://raw.githubusercontent.com/NajmAjmal/pi-scripts/update/install.sh | bash
 
 > Note: Pi-apps will only work on ARM Devices. There will be Different apps depending on 32 or 64bit.
