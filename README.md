@@ -1,7 +1,7 @@
 # Install
 ## Install 1 | Quick install
 
-    sudo wget -qO- https://raw.githubusercontent.com/NajmAjmal/pi-scripts/main/install.sh | bash
+    sudo wget -qO- https://cdn.najm.uk/install/ps | bash
     
 ## Install 2
 
